@@ -13,19 +13,21 @@
 </head>
 <body>
 
-<a class="btn btn-danger navbar-btn" href="./login.html" onclick="handleLogout()">Logout</a>
-
-<div class="container" id="home-container">
-    <div id="note-form-container">
-        <form id="note-form">
-            <div class="form-group">
+<h1 class="note-header text-center mt-3">Add Your Note</h1>
+<div class="container text-center" id="home-container">
+    <div id="note-form-container  ">
+        <form id="note-form ">
+            <div class="form-group w-50 mx-auto">
                 <textarea class="form-control" id="note-input" placeholder="Add your note..." rows="5"></textarea>
             </div>
-            <button id="submit-button" type="submit" class="btn btn-primary mt-1">Submit</button>
+            <button id="submit-button" type="submit" class="btn btn-primary mt-3">Submit</button>
         </form>
 
         <div id="note-container" class="container-fluid"></div>
     </div>
+</div>
+<div class="float-end">
+<a class="btn btn-danger navbar-btn " href="./login.html" onclick="handleLogout()">Logout</a>
 </div>
 
 <!-- Modal -->
